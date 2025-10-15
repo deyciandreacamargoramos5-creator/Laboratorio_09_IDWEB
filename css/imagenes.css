@@ -1,0 +1,18 @@
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 10px;
+}
+
+.galeria div {
+    border: 2px solid #aaa;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
